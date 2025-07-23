@@ -1,31 +1,8 @@
-<style>
-  strong {
-    color: #9929EA;
-    font-weight: 600;
-  }
-  
-  .badge {
-    display: inline-block;
-    padding: 0.25em 0.6em;
-    font-size: 0.75em;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: 0.375rem;
-    margin: 0.2em;
-  }
-  
-  .badge-java { background-color: #f89820; color: white; }
-  .badge-collections { background-color: #28a745; color: white; }
-  .badge-performance { background-color: #dc3545; color: white; }
-</style>
-
 # 📋 Java ArrayList Complete Guide
-<div class="badge badge-java">☕ Java</div>
-<div class="badge badge-collections">📚 Collections</div>
-<div class="badge badge-performance">⚡ Performance</div>
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Collections](https://img.shields.io/badge/Collections-Framework-green?style=for-the-badge)
+![Performance](https://img.shields.io/badge/Performance-Optimized-red?style=for-the-badge)
 
 ---
 
@@ -35,9 +12,9 @@
 2. [📋 List Interface](#-list-interface)
 3. [🚀 ArrayList](#-arraylist)
 4. [⚙️ Internal Working](#️-internal-working)
-    - [🏗️ Initial Capacity](#️-initial-capacity)
-    - [➕ Adding Elements](#-adding-elements)
-    - [❌ Removing Elements](#-removing-elements)
+   - [🏗️ Initial Capacity](#️-initial-capacity)
+   - [➕ Adding Elements](#-adding-elements)
+   - [❌ Removing Elements](#-removing-elements)
 5. [💡 Key Features](#-key-features)
 6. [⚡ Performance Characteristics](#-performance-characteristics)
 
@@ -166,4 +143,5 @@ The size counter is decremented by 1, and the last position is set to null to he
 
 ---
 
-> 💡 **Pro Tip**: Use `ArrayList.trimToSize()` after bulk operations to optimize memory usage by reducing the internal array size to match the actual number of elements.
+> 💡 **Pro Tip**: Use `ArrayList.trimToSize()` after bulk operations to optimize memory usage  
+> by reducing the internal array size to match the actual number of elements.
