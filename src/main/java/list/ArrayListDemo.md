@@ -1,5 +1,3 @@
-# 📋 Java ArrayList Complete Guide
-
 <style>
   strong {
     color: #9929EA;
@@ -24,6 +22,7 @@
   .badge-performance { background-color: #dc3545; color: white; }
 </style>
 
+# 📋 Java ArrayList Complete Guide
 <div class="badge badge-java">☕ Java</div>
 <div class="badge badge-collections">📚 Collections</div>
 <div class="badge badge-performance">⚡ Performance</div>
